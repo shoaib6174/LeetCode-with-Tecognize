@@ -3,8 +3,8 @@ Today we learned about basics of List, time complexity and Space Complexity
 
 **List:**  
 It is a built-in data type which is equivalent to an array of some other programming language. It is used to store an ordered collection of items of various data types.
-list.append() -  inserts an element in the end of the list
-list.pop() -  removes the item at the given index from the list and returns the removed item. By default it removes the last item of the list.
+- list.append() -  inserts an element in the end of the list
+- list.pop() -  removes the item at the given index from the list and returns the removed item. By default it removes the last item of the list.
 
   **Dynamic array in python:**  We don’t need to specify the length of a list beforehand because the size of the python list can be dynamically modified. When we declare a list python automatically allocates a chunk of memory . If this list is filled and we want to add more elements then python will allocate a bigger chunk of memory and copy the contents from the previous list to this new list. 
 
