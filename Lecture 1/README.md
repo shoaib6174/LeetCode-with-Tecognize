@@ -1,27 +1,26 @@
 # Lecture 1
 Today we learned about basics of List, time complexity and Space Complexity
 
-**List:**  
-It is a built-in data type which is equivalent to an array of some other programming language. It is used to store an ordered collection of items of various data types.
+**List:** It is a built-in data type which is equivalent to an array of some other programming language. It is used to store an ordered collection of items of various data types.
 - list.append() -  inserts an element in the end of the list
 - list.pop() -  removes the item at the given index from the list and returns the removed item. By default it removes the last item of the list.
 
-  **Dynamic array in python:**  We don’t need to specify the length of a list beforehand because the size of the python list can be dynamically modified. When we declare a list python automatically allocates a chunk of memory . If this list is filled and we want to add more elements then python will allocate a bigger chunk of memory and copy the contents from the previous list to this new list. 
+**Dynamic array in python:**  We don’t need to specify the length of a list beforehand because the size of the python list can be dynamically modified. When we declare a list python automatically allocates a chunk of memory . If this list is filled and we want to add more elements then python will allocate a bigger chunk of memory and copy the contents from the previous list to this new list. 
 
-  **Time Complexity:**  Amount of time required to run a task.
+**Time Complexity:**  Amount of time required to run a task.
 
  **Big O :**   It represents the number of operations needed in the worst case.
 - O(1) = constant time
 - O(c * n) or O(n +/- c) or O(n/c) = O(n)
 - O(1) + O(n) + O(1) = O(n)
 
- **Space Complexity:**  It represents the size of memory needed to run an algorithm. 
+**Space Complexity:**  It represents the size of memory needed to run an algorithm. 
 To reverse a n-sized list if I allocate another n-sized list then space complexity will be O(n) 
 If I don’t allocate another list then space complexity is O(1)
 
- **In place swap:**  a, b = b, a
+**In place swap:**  a, b = b, a
 
- **Reversing a list using two pointer approach:**  
+**Reversing a list using two pointer approach:**  
 ```python
 a = [2, 1]
 front= 0
