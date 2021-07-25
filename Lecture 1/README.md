@@ -33,9 +33,9 @@ while front <= end :
     print(a)
 print(a)
 ```
- **Time Complexity:**   O(n)  
- 
-  **Space Complexity:** O(1)
+For this solution:
+ - time complexity: O(n)
+ - space complexity: O(1)
 
 
 ## HomeWork:
